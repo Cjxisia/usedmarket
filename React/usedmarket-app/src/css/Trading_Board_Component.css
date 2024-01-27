@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    width: 70%;
+  }
+  
+  .left-column {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+  }
+  
+  .board-section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #trading_board_text {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #trading_board_space {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination button {
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+    padding: 5px 10px;
+  }
+  
+  .pagination button.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #trading_board_write {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #trading_board_write,
+  #trading_board_space {
+    margin: 10px;
+  }
+  
+  #trading_board_write:hover {
+    background-color: #45a049;
+  }
+  
+  #trading_board_text,
+  #trading_board_write {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
