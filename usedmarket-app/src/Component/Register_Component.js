@@ -48,7 +48,7 @@ function Register_Component() {
       return;
     }
 
-    axios.post('http://localhost:8080/register', {    //서버의 주소와 포트번호
+    axios.post('/register', {    //서버의 주소와 포트번호
       username: username,
       password: password,
     })
