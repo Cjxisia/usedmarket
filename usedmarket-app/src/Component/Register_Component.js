@@ -48,7 +48,7 @@ function Register_Component() {
       return;
     }
 
-    axios.post('/register', {    //서버의 주소와 포트번호
+    axios.post('/register', {    
       username: username,
       password: password,
     })
