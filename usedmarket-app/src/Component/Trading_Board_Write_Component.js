@@ -9,7 +9,7 @@ function Trading_Board_Write_Component() {
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
-  const apiKey = '9205f8c2a175502c16ee84d9ad8b0a8d'; // 여기에 카카오 API 키를 넣어주세요
+  const apiKey = 'API KEY'; // 여기에 카카오 API 키를 넣어주세요
 
   const handleTitleChange = (e) => {
     setTitle(e.target.value);
