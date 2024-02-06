@@ -10,7 +10,7 @@ function TradingBoardCorrectionComponent({ tb_id, onCancel, onPostUpdate }) {
   const [loading, setLoading] = useState(false);
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [message, setMessage] = useState('');
-  const apiKey = '9205f8c2a175502c16ee84d9ad8b0a8d';
+  const apiKey = 'API KEY';
 
   useEffect(() => {
     const fetchPost = async () => {
